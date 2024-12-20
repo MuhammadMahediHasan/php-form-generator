@@ -3,7 +3,7 @@
 $serverName = "127.0.0.1";
 $userName = "root";
 $password = "";
-$dbName = "acs_bd_new";
+$dbName = "";
 
 function getDbConnection() {
     global $serverName, $userName, $password, $dbName;

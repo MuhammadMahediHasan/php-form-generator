@@ -41,7 +41,6 @@ This project dynamically generates an HTML form based on the structure of a data
 ## Usage
 1. Open the `index.php` file in your browser.
 2. The script will fetch the database table schema and generate a form dynamically.
-3. Submit the form (ensure `process_form.php` is implemented to handle submissions).
 
 ## Example Output
 - Fields are rendered as per the database columns.
@@ -49,8 +48,8 @@ This project dynamically generates an HTML form based on the structure of a data
 - Enum fields are rendered as dropdowns with predefined options.
 
 ## Customization
-- Modify the Bootstrap classes in `form_generator.php` to customize the design.
-- Extend `form_generator.php` to handle additional column types if needed.
+- Modify the Bootstrap classes in `formGenerator.php` to customize the design.
+- Extend `formGenerator.php` to handle additional column types if needed.
 
 ## Troubleshooting
 - Ensure your database credentials are correct in `database.php`.

@@ -2,7 +2,7 @@
 require_once 'database.php';
 require_once 'formGenerator.php';
 
-$tableName = "users";
+$tableName = "";
 $conn = getDbConnection();
 
 generateForm($tableName, $conn);
